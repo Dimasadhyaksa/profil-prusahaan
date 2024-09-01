@@ -9,17 +9,22 @@
 
     <!-- about -->
     <section id="about" class="pt-5">
-        <div class="card mb-3" style="max-width: 80%;">
+        <div class="card mb-3 shadow" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="~/assets/about-image.jpeg" class="img-fluid rounded-start p-4" alt="...">
+                    <img src="~/assets/about-image.jpeg" class="img-fluid rounded-start p-4 " alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h2 class="card-title text-center">about us</h2>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h2 class="about card-title text-center">About us</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsam
+                            expedita laudantium id vel ab voluptatem pariatur voluptatibus explicabo ad, eius esse ipsum
+                            minus fugit incidunt consequuntur porro cupiditate iure.
+                        </p>
+                        <p class="card-text"><small class="text-muted">lebih lanjut</small></p>
+                        <!-- contact -->
+                        <a href="#product" class="bg-primary text-light text-center shadow"
+                            style="width: 30%;border-radius: 50px; display: block; text-decoration:none">Product</a>
                     </div>
                 </div>
             </div>
@@ -44,7 +49,7 @@
                         <a href="#" class="btn btn-primary">Open</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 15rem;">
                     <img src="~/assets/avrill.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">avrill</h5>
@@ -67,11 +72,49 @@
 
     <!-- n -->
     <!-- footer -->
+    <div class="card mt-5 shadow">
+        <div class="card-body">
+            <div class="image d-flex justify-content-center">
+                <img src="~/assets/logo.png" style="width:150px;" alt="logo">
+            </div>
+            
+            <div class="pt-3 alamat">
+                <p>Jl.ciwasmandi</p>
+            </div>
+            <p>&copy Rumah Parfum Damara</p>
 
+                <a href="https://wa.me/6281234567890" class="wa-button fixed-bottom" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon">
+                    Hubungi Admin
+                </a>
+        </div>
+    </div>
+    <!-- contat wa -->
     <!-- footer -->
 </template>
 
 
 <style>
 
+.wa-button {
+    width: 200px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.wa-button:hover {
+    background-color: #22b35a;
+}
+
+.wa-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
 </style>
