@@ -23,8 +23,8 @@
                         </p>
                         <p class="card-text"><small class="text-muted">lebih lanjut</small></p>
                         <!-- contact -->
-                        <a href="#product" class="bg-primary text-light text-center shadow"
-                            style="width: 30%;border-radius: 50px; display: block; text-decoration:none">Product</a>
+                        <a href="https://www.instagram.com/" target="_blank"class="bg-primary text-light text-center shadow"
+                            style="width: 30%;border-radius: 50px; display: block; text-decoration:none">Open</a>
                     </div>
                 </div>
             </div>
@@ -78,18 +78,19 @@
                 <img src="~/assets/logo.png" style="width:150px;" alt="logo">
             </div>
             
-            <div class="pt-3 alamat">
+            <div class="pt-3 d-flex justify-content-center">
                 <p>Jl.ciwasmandi</p>
             </div>
-            <p>&copy Rumah Parfum Damara</p>
-
-                <a href="https://wa.me/6281234567890" class="wa-button fixed-bottom" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon">
-                    Hubungi Admin
-                </a>
+            <div class="d-flex justify-content-center">
+                <p>&copy Rumah Parfum Damara</p>
+            </div>
         </div>
     </div>
-    <!-- contat wa -->
+    <!-- contact wa -->
+    <a href="https://wa.me/6289505898529" class="wa-button fixed-bottom" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon">
+        Hubungi Admin
+    </a>
     <!-- footer -->
 </template>
 

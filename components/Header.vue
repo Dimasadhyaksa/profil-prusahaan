@@ -13,9 +13,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#product">Product</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">contact me</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
