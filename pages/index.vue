@@ -17,13 +17,12 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h2 class="about card-title text-center">About us</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsam
-                            expedita laudantium id vel ab voluptatem pariatur voluptatibus explicabo ad, eius esse ipsum
-                            minus fugit incidunt consequuntur porro cupiditate iure.
+                        <p class="card-text">Selamat datang di DAMARA WANGI PARFUM, di mana keanggunan dan keharuman bertemu dalam setiap tetes parfum yang kami ciptakan. 
+                             kami bangga menjadi pelopor dalam industri parfum dengan misi untuk menghadirkan pengalaman aroma yang tak terlupakan.
                         </p>
                         <p class="card-text"><small class="text-muted">lebih lanjut</small></p>
                         <!-- contact -->
-                        <a href="https://www.instagram.com/" target="_blank"class="bg-primary text-light text-center shadow"
+                        <a href="https://www.instagram.com/damarawangiparfum" target="_blank"class="bg-primary text-light text-center shadow"
                             style="width: 30%;border-radius: 50px; display: block; text-decoration:none">Open</a>
                     </div>
                 </div>
