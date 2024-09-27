@@ -1,3 +1,21 @@
+<script setup>
+const client = useSupabaseClient()
+const products = ref([])
+
+async function getProducts() {
+    const { data, error } = await client
+        .from('product')
+        .select()
+    if(data) {
+        products.value = data
+    }
+}
+
+onMounted(() => {
+    getProducts()
+})
+</script>
+
 <template>
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -18,7 +36,7 @@
                     <div class="card-body">
                         <h2 class="about card-title text-center">About us</h2>
                         <p class="card-text">Selamat datang di DAMARA WANGI PARFUM, di mana keanggunan dan keharuman bertemu dalam setiap tetes parfum yang kami ciptakan. 
-                             kami bangga menjadi pelopor dalam industri parfum dengan misi untuk menghadirkan pengalaman aroma yang tak terlupakan.
+                                            kami bangga menjadi pelopor dalam industri parfum dengan misi untuk menghadirkan pengalaman aroma yang tak terlupakan.
                         </p>
                         <p class="card-text"><small class="text-muted">lebih lanjut</small></p>
                         <!-- contact -->
@@ -40,30 +58,15 @@
                 </div>
             </div>
             <div class="row d-flex justify-content-around pt-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="~/assets/jaguar.jpeg" class="card-img-top" alt="...">
+                <div v-for="product in products" :key="product.id" class="card" style="width: 18rem;">
+                    <img :src="product.cover" class="card-img-top" :alt="product.nama">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Jaguar</h5>
-                        <p class="card-text">IDR 285.000</p>
+                        <h5 class="card-title text-center">{{ product.nama }}</h5>
+                        <p class="card-text">{{ product.harga }}</p>
                         <a href="#" class="btn btn-primary">Open</a>
                     </div>
                 </div>
-                <div class="card" style="width: 15rem;">
-                    <img src="~/assets/avrill.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">avrill</h5>
-                        <p class="card-text">IDR 285.000</p>
-                        <a href="#" class="btn btn-primary">Open</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="~/assets/bulgary.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Jaguar</h5>
-                        <p class="card-text">IDR 285.000</p>
-                        <a href="#" class="btn btn-primary">Open</a>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -86,10 +89,10 @@
         </div>
     </div>
     <!-- contact wa -->
-    <a href="https://wa.me/6289505898529" class="wa-button fixed-bottom" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon">
-        Hubungi Admin
-    </a>
+    <NuxtLink href="https://wa.me/6289505898529" class="wa-button fixed-bottom" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon">
+            Hubungi Admin
+    </NuxtLink>
     <!-- footer -->
 </template>
 
