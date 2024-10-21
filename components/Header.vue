@@ -1,10 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg  shadow-sm fixed-top" >
-    <div class="image">
-
       <img src="~/assets/logo.png" alt="logo">
-    </div>
-    <div class="container">
+    
+      <div class="container">
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">

@@ -17,9 +17,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+    <div id="Home">
+        <div class="col">
+            <div class="row">
                 <img src="~/assets/gambar1.jpg" class="d-block w-100" alt="gambar1">
             </div>
         </div>
@@ -78,23 +78,13 @@ onMounted(() => {
             </div>
         </div>
     </section>
-    <!-- about n  -->
-
-    <!-- product -->
-
-
-
-    <!-- n -->
-    <!-- footer -->
-    <Footer />
-    <!-- contact wa -->
+    <!-- contact -->
     <div class="float-end fixed-bottom m-3">
         <NuxtLink to="https://wa.me/6289505898529" class="wa-button" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon ">
             Hubungi Admin
         </NuxtLink>
     </div>
-    <!-- footer -->
 </template>
 
 
