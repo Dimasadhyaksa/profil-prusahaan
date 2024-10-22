@@ -14,7 +14,9 @@
     "install": "^0.13.0",
     "nstall": "^0.2.0",
     "nuxt": "^3.13.0",
-    "simple-icons": "^13.7.0",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^1.4.1"
   }
 }

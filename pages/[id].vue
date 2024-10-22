@@ -10,7 +10,6 @@
                 </div>
                 <div class="col-4">
                     <div class="row">
-                        <!-- <h1 class="text start text-center my-4">DETAIL PRODUK</h1> -->
                     </div>
                     <div class="row">
                     <div class="badge bg-secondary class p-2">{{ detail?.nama }}</div>
