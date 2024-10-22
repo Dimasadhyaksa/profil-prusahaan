@@ -18,9 +18,11 @@ onMounted(() => {
 
 <template>
     <div id="Home">
-        <div class="col">
-            <div class="row">
-                <img src="~/assets/gambar1.jpg" class="d-block w-100" alt="gambar1">
+        <div class="container">
+            <div class="col">
+                <div class="row">
+                    <img src="~/assets/gambar1.jpg" class="d-block w-100" alt="gambar1">
+                </div>
             </div>
         </div>
     </div>
@@ -47,6 +49,7 @@ onMounted(() => {
                             style="width: 30%;border-radius: 50px; display: block; text-decoration:none">Open</a>
                     </div>
                 </div>
+
                 <section id="product">
                     <div class="container">
                         <div class="row text-center">
@@ -78,6 +81,7 @@ onMounted(() => {
             </div>
         </div>
     </section>
+    
     <!-- contact -->
     <div class="float-end fixed-bottom m-3">
         <NuxtLink to="https://wa.me/6289505898529" class="wa-button" target="_blank">

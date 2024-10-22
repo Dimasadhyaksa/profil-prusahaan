@@ -6,7 +6,7 @@
             </div>
 
             <div class="pt-3 d-flex justify-content-center">
-                <p>Jl.Purbaratu Kp.Ciwasmandi Rt.03 Rw.08 Kel.Singkup Kec.Purbaratu Kota Tasikmalaya</p>
+                <p>Kp.Ciwasmandi Rt.03 Rw.08 Kota Tasikmalaya</p>
             </div>
 
             </div>
