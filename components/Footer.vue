@@ -1,5 +1,5 @@
 <template>
-    <div class="card mt-5 shadow">
+    <div class="card shadow">
         <div class="card-body">
             <div class="image d-flex justify-content-center ">
                 <img src="~/assets/logo.png" style="width:150px;" alt="logo">

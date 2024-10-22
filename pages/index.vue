@@ -32,7 +32,7 @@ onMounted(() => {
         <div class="card mb-3 pb-5" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="~/assets/about-image.jpeg" class="img-fluid rounded-start p-4 " alt="...">
+                    <img src="~/assets/about-image.jpeg" class="img-fluid  p-4 " alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -69,7 +69,8 @@ onMounted(() => {
                                     <NuxtLink :to="`/${product.id}`"
                                         class="btn btn-outline-primary btn-lg mt-4  d-flex justify-content-around">Lihat
                                         Detail</NuxtLink>
-                                    <NuxtLink href="https://wa.me/6283814789833"
+
+                                    <NuxtLink href="https://wa.me/6289663692024"
                                         class="btn btn-outline-success btn-lg mt-4  d-flex justify-content-around">Order
                                         WhatsApp</NuxtLink>
                                 </div>
@@ -84,7 +85,7 @@ onMounted(() => {
     
     <!-- contact -->
     <div class="float-end fixed-bottom m-3">
-        <NuxtLink to="https://wa.me/6289505898529" class="wa-button" target="_blank">
+        <NuxtLink to="https://wa.me/6289663692024" class="wa-button" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon ">
             Hubungi Admin
         </NuxtLink>
